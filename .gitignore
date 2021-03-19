@@ -6,6 +6,7 @@ build/
 .scannerwork/
 .nyc_output/
 .vscode/
+.idea/
 .env
 .results
 results

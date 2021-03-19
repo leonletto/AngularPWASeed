@@ -71,7 +71,7 @@ export class DatabaseService {
             switchMap(connection => this._beginTransaction(connection))
         );
     }
-    
+
 
     connectionCommit(conn: Connection): Observable<Connection> {
         return Observable.create(obs => {
